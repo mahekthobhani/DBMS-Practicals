@@ -1,0 +1,8 @@
+create table borrow(loanno number(5),cname varchar2(18),bname varchar2(18),amount number(8,2));
+insert into borrow values(201,'anil','vrce',1000.00);
+insert into borrow values(206,'mehul','ajni',5000.00);
+insert into borrow values(311,'sunil','dharampeth',3000.00);
+insert into borrow values(321,'madhuri','andheri',2000.00);
+insert into borrow values(375,'prmod','vihar',8000.00);
+insert into borrow values(481,'kranti','nehru place',3000.00);
+insert into borrow values(501,'gadkari','futala_lake',5400.00);

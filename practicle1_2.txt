@@ -1,0 +1,11 @@
+create table branch(bname varchar2(18),city varchar2(18));
+insert into branch values('vrce','nagpur');
+insert into branch values('ajni','nagpur');
+insert into branch values('karolbagh','delhi');
+insert into branch values('chandi','delhi');
+insert into branch values('dharampeth','nagpur');
+insert into branch values('m.g.road','banglore');
+insert into branch values('andheri','bombay');
+insert into branch values('virar','bombay');
+insert into branch values('nehru place','delhi');
+insert into branch values('powai','bombay');

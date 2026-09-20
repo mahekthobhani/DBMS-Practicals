@@ -1,0 +1,15 @@
+create table customers(cname varchar2(19),city varchar2(18));
+insert into customers values('anil','calcutta');
+insert into customers values('sunil','delhi');
+insert into customers values('mehul','baroda');
+insert into customers values('mandar','patna');
+insert into customers values('madhuri','nagpur');
+insert into customers values('pramod','nagpur');
+insert into customers values('sandip','surat');
+insert into customers values('shivani','bombay');
+insert into customers values('kranti','bombay');
+insert into customers values('naren','bombay');
+insert into customers values('gadkari','bombay');
+UPDATE customers
+SET city = 'nagpur' 
+WHERE cname = 'gadkari';
